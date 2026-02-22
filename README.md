@@ -1,4 +1,3 @@
-# blue-light-filter-chrome-extension
 # 🛡️ EyeShield — Smart Blue Light Filter for Chrome
 
 > Automatically adjusts screen warmth, brightness, contrast & saturation based on time of day to reduce eye strain and improve visual comfort.
