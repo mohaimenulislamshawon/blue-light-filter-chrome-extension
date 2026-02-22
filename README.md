@@ -112,47 +112,6 @@ Changes apply instantly.
 
 ---
 
-## 📁 Project Structure
-
-```
-blue-light-filter-chrome-extension/
-│
-├── manifest.json
-├── background.js
-├── content.js
-├── popup.html
-├── popup.js
-└── icons/
-```
-
-### File Responsibilities
-
-- **background.js** → State management & broadcast to tabs  
-- **content.js** → Applies visual filter to pages  
-- **popup.html / popup.js** → User interface  
-- **manifest.json** → Chrome extension configuration  
-
----
-
-## 🔐 Permissions Used
-
-```json
-"permissions": ["storage", "alarms", "scripting"],
-"host_permissions": ["<all_urls>"]
-```
-
-These are required for:
-
-- Saving settings
-- Automatic time checking
-- Injecting CSS into tabs
-
-❗ No tracking.  
-❗ No external APIs.  
-❗ No data collection.
-
----
-
 ## 🎯 Why EyeShield?
 
 Long screen exposure can cause:
